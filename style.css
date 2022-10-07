@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.main-menu{
+    background-color: gray;
+    padding: 50px 0;
+    
+}
+
+.main-menu ul{
+    text-align: center;
+}
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+}
+.main-menu ul li a{
+    display: inline-block;
+   text-decoration: none;
+   background-color: brown;
+   padding: 5px 10px;
+   text-transform: capitalize;
+}
+
+.main-menu ul li::before{
+    content: '';
+    height: 20px;
+    width: 5px;
+    background-color: rgb(245, 243, 247);
+    position: absolute;
+    top: 28px;
+    left: 50%;
+}
+.main-menu span{
+    position: absolute;
+    top: 50px;
+    right: 19px;
+    display: inline-block;
+}
+/* ########service-section##*/
+.ser-head{
+    border-bottom: 3px dashed;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.service-item{
+    text-align: center;
+    
+
+}
+.card-1{
+    border: 2px solid;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .8s;
+    display: inline-block;
+    margin-left: 10px;
+}
+.card-1:hover{
+    box-shadow: 0 0 50px #15fee4 inset;
+}
+.card-icon{
+    font-size: 30px;
+    margin: 10px 0;
+    color: rgb(27, 119, 88);
+}
+.card-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: brown;
+}
+.card-p{
+    color: blue;
+    text-align: left;
+    padding-left: 5px;
+}
+/* abput-me */
+.about-sec{
+    background-color: burlywood;
+    padding: 100px 0;
+    margin-top: 50px;
+    text-align: center;
+   
+}
+.about-cir1{
+    height: 100px;
+    width: 100px;
+    border: 4px dashed #15fee4;
+    border-radius: 50%;
+    background-color: rgb(48, 42, 42);
+    display: inline-block;
+
+}
+.cir-items{
+    position: relative;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.cir1 {
+    position: absolute;
+    top: 80px;
+    right: 413px;
+}
+.cir2{
+    margin-right: 50px;
+}
+.cir3{
+    margin-left: 50px;
+}
+.cir4 {
+    position: absolute;
+    top: 80px;
+    left: 413px;
+}
+.cir5{
+    border: 5px solid #15fee4;
+}
+.cir5 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.name {
+    padding: 6px 10px;
+    border-radius: 100px;
+    border: transparent;
+    position: absolute;
+    top: 251px;
+    right: 116px;
+}
+.email {
+    padding: 6px 10px;
+    border-radius: 100px;
+    border: transparent;
+    position: absolute;
+    top: 290px;
+    right: 116px;
+}
+
+.button a {
+    margin-top: 120px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid;
+    padding: 5px 34px;
+    border-radius: 4px;
+    transition: .7s;
+}
+.button a:hover{
+    box-shadow: 0 5px 50px #15fee4;
+}
+.footer{
+    background-color: rgb(66, 40, 7);
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+}
